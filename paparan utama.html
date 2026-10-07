@@ -1,0 +1,75 @@
+<html>
+<head>
+  <title>Paparan utama</title>
+  <style>
+    body {
+      background-color: skyblue;
+    }
+    
+    h1 {
+      font-family: creeper, sans-serif; /* tambah sans-serif sebagai fallback */
+      color: blue;
+      text-align: center; /* selaraskan tajuk ke tengah */
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .hero {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%; /* ubah saiz gambar mengikut kesesuaian */
+    }
+
+    /* --- Gaya Asal Butang --- */
+    .hero a button {
+      padding: 10px 24px;
+      font-size: 16px;
+      margin: 10px 5px;
+      background-color: white;
+      color: blue;
+      border: 2px solid blue;
+      border-radius: 8px;
+      cursor: pointer;
+      
+      /* Animasi bermula di sini (transition mengawal kelembutan animasi) */
+      transition: all 0.3s ease;
+    }
+
+    /* --- Kesan Hover Lembut --- */
+    .hero a button:hover {
+      background-color: blue;
+      color: white;
+      transform: translateY(-4px); /* Butang naik sedikit ke atas */
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Kesan bayang-bayang */
+    }
+	img {
+  border-radius: 15px;
+}
+  </style>
+</head>
+<body>
+
+  <h1>Tempat Pelancongan Di Malaysia</h1>
+  <p>
+    Malaysia merupakan tempat pelancongan yang unik dan digemari pelancong di seluruh dunia.
+  </p>
+
+  <img src="gambar t.pelancongan.jpg">
+
+  <div class="hero">
+    <a href="Pahang.html"><button>Pahang</button></a>
+    <a href="Terengganu.html"><button>Terengganu</button></a>
+    <a href="Pulau Pinang.html"><button>Pulau Pinang</button></a>
+    <a href="Ruang Komen.html"><button>Ruang Komen</button></a>
+  </div>
+
+</body>
+</html>
